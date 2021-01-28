@@ -97,7 +97,7 @@ If you are looking for housing that won't make your bank account fragile, then g
 
 Our model RMSE for the train and test set are similar which indicates that our model will perform well on different data. Hence our model can be used as a predictor for the Real Estate Agents to buy house or to analyze the various criteria that stimulates the housing price .
 
-For More Information:
+## For More Information:
 
 See the full analysis in the Jupyter Notebook .
 

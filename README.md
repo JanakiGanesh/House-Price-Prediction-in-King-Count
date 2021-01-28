@@ -41,18 +41,18 @@ Our model didn't meet the regression assumptions and the RMSE value was high wit
 ### Model 2 :
 
 Selected variables which are linear and built a new model.
-Train RMSE: 238114.36314309336
-Test RMSE: 243234.25014980324
-Train R2: 0.5775084222015455
+Train RMSE: 238114.36314309336\
+Test RMSE: 243234.25014980324\
+Train R2: 0.5775084222015455\
 Test R2: 0.568782614551135\
 ![alt text](https://github.com/JanakiGanesh/House-Price-Prediction-in-King-Count/blob/main/images/Model2.png)
 
 This model didn't improve well. Hence built MOdel 3 
 ### Model 3 :
 Tried log transformation for the target and the response variable
-Train RMSE: 0.3417654821862211
-Test RMSE: 0.34131400565596115
-Train R2: 0.5800369077132734
+Train RMSE: 0.3417654821862211\
+Test RMSE: 0.34131400565596115\
+Train R2: 0.5800369077132734\
 Test R2: 0.575725504061078\
 ![alt text](https://github.com/JanakiGanesh/House-Price-Prediction-in-King-Count/blob/main/images/Model3.png)
 Our model 3 improved well on RMSE value but the R squared value improved but let us try improving the model with better R squared value
@@ -60,17 +60,17 @@ Our model 3 improved well on RMSE value but the R squared value improved but let
 
 Checking for the muliticollinearity to improve our model
 
-Train RMSE: 0.3513999392706709
-Test RMSE: 0.35286466512965453
-Train R2: 0.5560254312136382
+Train RMSE: 0.3513999392706709\
+Test RMSE: 0.35286466512965453\
+Train R2: 0.5560254312136382\
 Test R2: 0.5465232245990275\
 ![alt text](https://github.com/JanakiGanesh/House-Price-Prediction-in-King-Count/blob/main/images/Model4.png)
 The model R2 square value is reduced by small amount
  ### Model 5 :
 There were many bathrooms and hence selected only upto 4 bathroom houses and converted them to catergorical variable to improve our model.
- Train RMSE: 0.33420217863454416
-Test RMSE: 0.34145241899517415
-Train R2: 0.5668054800701774
+ Train RMSE: 0.33420217863454416\
+Test RMSE: 0.34145241899517415\
+Train R2: 0.5668054800701774\
 Test R2: 0.5687840686619469\
 ![alt text](https://github.com/JanakiGanesh/House-Price-Prediction-in-King-Count/blob/main/images/Model5.png)
 
@@ -78,9 +78,9 @@ There is no big difference in our R2 and RMSE value and hence I am removing the 
  ### Model 6 :
 
 In our dataset we have 'yr_built', 'yr_renovated' and 'grade' column. Checked for interactions between them and applied in our model.
- Train RMSE: 0.3132980216188752
-Test RMSE: 0.3193145255976609
-Train R2: 0.647085067318093
+ Train RMSE: 0.3132980216188752\
+Test RMSE: 0.3193145255976609\
+Train R2: 0.647085067318093\
 Test R2: 0.6286563030309209\
 ![alt text](https://github.com/JanakiGanesh/House-Price-Prediction-in-King-Count/blob/main/images/Model6.png)
 

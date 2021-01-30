@@ -12,7 +12,7 @@ Homeowners approaches the real estate agency for help in order to buy /sell thei
 
 ## The Data
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this project repo. The description of the column names can be found in `column_names.md` in the same folder. 
+This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this project repository. The description of the column names can be found in `column_names.md` in the same folder. 
 
 ## Approach
 
@@ -87,6 +87,11 @@ Test R2: 0.6286563030309209\
 ![alt text](https://github.com/JanakiGanesh/House-Price-Prediction-in-King-Count/blob/main/images/Model6.png)
 
 The new model looked better in terms of both R2 value and RMSE value.
+* The model RMSE for the train and test set are some what similar which indicates that our model will perform well on different data
+* The model R2 value is 0.647 which is 64% of price variation is explained by our model
+* Based on the RMSE value, our model's prediction on an average is off by 31% from the actual price value
+
+Since the model is log transformed , our interpretation cannot be done in USD as it is unit free
 
 
 ## Recommendations
